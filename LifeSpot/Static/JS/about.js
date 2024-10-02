@@ -31,7 +31,7 @@ function getComment() {
     }
 }
 
-cconst writeReview = review => {
+const writeReview = review => {
     let likeCounter = '';
 
     // Если публикуется отзыв - добавляем ему кнопку с лайками.
